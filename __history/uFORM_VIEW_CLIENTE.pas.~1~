@@ -1,0 +1,40 @@
+unit uFORM_VIEW;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles, cxCustomData, cxFilter, cxData,
+  cxDataStorage, cxEdit, DB, cxDBData, StdCtrls, ExtCtrls, cxGridLevel, cxClasses, cxGridCustomView,
+  cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGrid;
+
+type
+  TFORM_VIEW = class(TForm)
+    dsCliente: TDataSource;
+    cxGrid1DBTableView1: TcxGridDBTableView;
+    cxGrid1Level1: TcxGridLevel;
+    cxGrid1: TcxGrid;
+    pnControls: TPanel;
+    btnConfirm: TButton;
+    procedure btnConfirmClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FORM_VIEW: TFORM_VIEW;
+
+implementation
+
+uses uDM_MODEL, DBClient;
+
+{$R *.dfm}
+
+procedure TFORM_VIEW.btnConfirmClick(Sender: TObject);
+begin
+  DM_MODEL.confirm( TClientDataSet(dsCliente.DataSet) );
+end;
+
+end.

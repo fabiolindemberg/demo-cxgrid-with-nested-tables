@@ -1,0 +1,26 @@
+unit uRN_CLIENTE;
+
+interface
+
+uses
+  DBClient;
+
+type
+  TRN_Cliente = class
+  private
+    FDataSet :TClientDataSet
+  public
+    procedure genarateID();
+    constructor create(aDataSet :TClientDataSet);
+  end;
+
+implementation
+
+{ TRN_Cliente }
+
+constructor TRN_Cliente.create(aDataSet: TClientDataSet);
+begin
+
+end;
+
+end.

@@ -1,0 +1,35 @@
+unit uFORM_CARRO;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, uFORM_BASE, cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles, cxCustomData, cxFilter,
+  cxData, cxDataStorage, cxEdit, DB, cxDBData, cxDBLookupComboBox, cxGridCustomTableView, cxGridTableView,
+  cxGridDBTableView, StdCtrls, ExtCtrls, cxGridLevel, cxClasses, cxGridCustomView, cxGrid, cxImage;
+
+type
+  TFORM_CARRO = class(TFORM_BASE)
+    cxGridDBTableView1id: TcxGridDBColumn;
+    cxGridDBTableView1name: TcxGridDBColumn;
+    cxGridDBTableView1picture: TcxGridDBColumn;
+    cxGridDBTableView1montadora_id: TcxGridDBColumn;
+    cxGridDBTableView1ano: TcxGridDBColumn;
+    cxGridDBTableView1sumary: TcxGridDBColumn;
+    dsMontadora: TDataSource;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FORM_CARRO: TFORM_CARRO;
+
+implementation
+
+uses uDM_MODEL;
+
+{$R *.dfm}
+
+end.

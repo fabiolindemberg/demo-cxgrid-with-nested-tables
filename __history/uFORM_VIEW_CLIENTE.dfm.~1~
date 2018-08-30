@@ -1,0 +1,64 @@
+object FORM_VIEW: TFORM_VIEW
+  Left = 0
+  Top = 0
+  Caption = 'Form'
+  ClientHeight = 492
+  ClientWidth = 853
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object cxGrid1: TcxGrid
+    Left = 0
+    Top = 0
+    Width = 853
+    Height = 451
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = 16
+    ExplicitTop = 8
+    ExplicitWidth = 793
+    ExplicitHeight = 417
+    object cxGrid1DBTableView1: TcxGridDBTableView
+      NavigatorButtons.ConfirmDelete = False
+      DataController.DataSource = dsCliente
+      DataController.Summary.DefaultGroupSummaryItems = <>
+      DataController.Summary.FooterSummaryItems = <>
+      DataController.Summary.SummaryGroups = <>
+      NewItemRow.Visible = True
+    end
+    object cxGrid1Level1: TcxGridLevel
+      GridView = cxGrid1DBTableView1
+    end
+  end
+  object pnControls: TPanel
+    Left = 0
+    Top = 451
+    Width = 853
+    Height = 41
+    Align = alBottom
+    TabOrder = 1
+    ExplicitLeft = 344
+    ExplicitTop = 408
+    ExplicitWidth = 185
+    object btnConfirm: TButton
+      Left = 16
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'Confirm'
+      TabOrder = 0
+      OnClick = btnConfirmClick
+    end
+  end
+  object dsCliente: TDataSource
+    DataSet = DM_MODEL.cdsCliente
+    Left = 24
+    Top = 16
+  end
+end

@@ -1,0 +1,5 @@
+inherited FORM_REPORT_CARRO: TFORM_REPORT_CARRO
+  Caption = 'FORM_REPORT_CARRO'
+  PixelsPerInch = 96
+  TextHeight = 13
+end

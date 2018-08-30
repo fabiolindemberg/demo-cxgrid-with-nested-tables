@@ -1,0 +1,16 @@
+program NESTED_DATASETS_WITH_CXGRID;
+
+uses
+  Forms,
+  uFORM_VIEW in 'uFORM_VIEW.pas' {FORM_VIEW},
+  uDM_MODEL in 'uDM_MODEL.pas' {DM_MODEL: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFORM_VIEW, FORM_VIEW);
+  Application.CreateForm(TDM_MODEL, DM_MODEL);
+  Application.Run;
+end.

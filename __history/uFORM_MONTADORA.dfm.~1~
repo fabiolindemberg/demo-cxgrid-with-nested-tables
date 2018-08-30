@@ -1,0 +1,18 @@
+inherited FORM_MONTADORA: TFORM_MONTADORA
+  Caption = 'Montadora'
+  ExplicitWidth = 651
+  ExplicitHeight = 338
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited cxGrid: TcxGrid
+    ExplicitLeft = 0
+    ExplicitTop = 2
+    ExplicitWidth = 633
+    ExplicitHeight = 252
+  end
+  inherited pnControl: TPanel
+    ExplicitLeft = 0
+    ExplicitTop = 252
+    ExplicitWidth = 633
+  end
+end

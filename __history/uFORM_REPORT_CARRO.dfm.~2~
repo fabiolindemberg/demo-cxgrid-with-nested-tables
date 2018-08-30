@@ -1,0 +1,161 @@
+inherited FORM_REPORT_CARRO: TFORM_REPORT_CARRO
+  Caption = 'FORM_REPORT_CARRO'
+  ClientHeight = 218
+  ExplicitHeight = 263
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited ppReport: TppReport
+    DataPipelineName = 'ppDBPipeline'
+    inherited ppDetailBand1: TppDetailBand
+      Background1.Brush.Style = bsSolid
+      Background2.Brush.Color = clSilver
+      Background2.Brush.Style = bsSolid
+      mmHeight = 34396
+      object ppDBText1: TppDBText
+        UserName = 'DBText1'
+        HyperlinkColor = clBlue
+        Border.BorderPositions = []
+        Border.Color = clBlack
+        Border.Style = psSolid
+        Border.Visible = False
+        DataField = 'name'
+        DataPipeline = ppDBPipeline
+        Ellipsis = False
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        Transparent = True
+        DataPipelineName = 'ppDBPipeline'
+        mmHeight = 3260
+        mmLeft = 1323
+        mmTop = 0
+        mmWidth = 17198
+        BandType = 4
+      end
+      object ppDBText2: TppDBText
+        UserName = 'DBText2'
+        HyperlinkColor = clBlue
+        Border.BorderPositions = []
+        Border.Color = clBlack
+        Border.Style = psSolid
+        Border.Visible = False
+        DataField = 'ano'
+        DataPipeline = ppDBPipeline
+        Ellipsis = False
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        Transparent = True
+        DataPipelineName = 'ppDBPipeline'
+        mmHeight = 3175
+        mmLeft = 25929
+        mmTop = 0
+        mmWidth = 17198
+        BandType = 4
+      end
+      object ppDBImage1: TppDBImage
+        UserName = 'DBImage1'
+        AlignHorizontal = ahCenter
+        AlignVertical = avCenter
+        MaintainAspectRatio = True
+        Stretch = True
+        Border.BorderPositions = []
+        Border.Color = clBlack
+        Border.Style = psSolid
+        Border.Visible = False
+        DataField = 'picture'
+        DataPipeline = ppDBPipeline
+        GraphicType = 'PNG'
+        DataPipelineName = 'ppDBPipeline'
+        mmHeight = 34396
+        mmLeft = 49742
+        mmTop = 0
+        mmWidth = 50006
+        BandType = 4
+      end
+      object ppDBRichText1: TppDBRichText
+        UserName = 'DBRichText1'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        Border.BorderPositions = []
+        Border.Color = clBlack
+        Border.Style = psSolid
+        Border.Visible = False
+        DataField = 'sumary'
+        DataPipeline = ppDBPipeline
+        Transparent = True
+        DataPipelineName = 'ppDBPipeline'
+        mmHeight = 34396
+        mmLeft = 104511
+        mmTop = 0
+        mmWidth = 65617
+        BandType = 4
+        mmBottomOffset = 0
+        mmOverFlowOffset = 0
+        mmStopPosition = 0
+        mmMinHeight = 0
+      end
+    end
+  end
+  inherited ppDBPipeline: TppDBPipeline
+    object ppDBPipelineppField1: TppField
+      Alignment = taRightJustify
+      FieldAlias = 'id'
+      FieldName = 'id'
+      FieldLength = 0
+      DataType = dtInteger
+      DisplayWidth = 10
+      Position = 0
+    end
+    object ppDBPipelineppField2: TppField
+      FieldAlias = 'name'
+      FieldName = 'name'
+      FieldLength = 20
+      DisplayWidth = 20
+      Position = 1
+    end
+    object ppDBPipelineppField3: TppField
+      FieldAlias = 'picture'
+      FieldName = 'picture'
+      FieldLength = 0
+      DataType = dtBLOB
+      DisplayWidth = 10
+      Position = 2
+      Searchable = False
+      Sortable = False
+    end
+    object ppDBPipelineppField4: TppField
+      Alignment = taRightJustify
+      FieldAlias = 'montadora_id'
+      FieldName = 'montadora_id'
+      FieldLength = 0
+      DataType = dtInteger
+      DisplayWidth = 10
+      Position = 3
+    end
+    object ppDBPipelineppField5: TppField
+      FieldAlias = 'ano'
+      FieldName = 'ano'
+      FieldLength = 4
+      DisplayWidth = 4
+      Position = 4
+    end
+    object ppDBPipelineppField6: TppField
+      FieldAlias = 'sumary'
+      FieldName = 'sumary'
+      FieldLength = 90
+      DisplayWidth = 90
+      Position = 5
+    end
+  end
+  inherited DataSource: TDataSource
+    DataSet = DM_MODEL.cdsCarro
+  end
+end

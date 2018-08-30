@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/09/24 17:19:54.728.pas,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\Unit5.pas=D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\DM_MODEL.pas</Transaction>
+    <Transaction>2014/09/24 17:19:54.728.dfm,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\Unit5.dfm=D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\DM_MODEL.dfm</Transaction>
+    <Transaction>2014/09/24 17:20:10.923.pas,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\Unit2.pas=D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\FORM_VIEW.pas</Transaction>
+    <Transaction>2014/09/24 17:20:10.923.dfm,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\Unit2.dfm=D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\FORM_VIEW.dfm</Transaction>
+    <Transaction>2014/09/24 17:20:50.349.dproj,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\Project1.dproj=D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\NESTED_DATASETS_WITH_CXGRID.dproj</Transaction>
+    <Transaction>2014/09/24 17:25:36.574.pas,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\DM_MODEL.pas=D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\uDM_MODEL.pas</Transaction>
+    <Transaction>2014/09/24 17:25:36.574.dfm,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\DM_MODEL.dfm=D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\uDM_MODEL.dfm</Transaction>
+    <Transaction>2014/09/24 17:25:42.812.pas,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\FORM_VIEW.pas=D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\uFORM_VIEW.pas</Transaction>
+    <Transaction>2014/09/24 17:25:42.812.dfm,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\FORM_VIEW.dfm=D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\uFORM_VIEW.dfm</Transaction>
+    <Transaction>2014/09/24 17:30:17.511.pas,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\uDM_MODEL.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uDM_MODEL.pas</Transaction>
+    <Transaction>2014/09/24 17:30:17.511.dfm,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\uDM_MODEL.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uDM_MODEL.dfm</Transaction>
+    <Transaction>2014/09/24 17:30:18.615.pas,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\uFORM_VIEW.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_VIEW.pas</Transaction>
+    <Transaction>2014/09/24 17:30:18.615.dfm,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\uFORM_VIEW.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_VIEW.dfm</Transaction>
+    <Transaction>2014/09/24 17:30:19.897.dproj,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\NESTED_DATASETS_WITH_CXGRID.dproj=D:\AGFA\My Tests\Nested DataSets with CXGrid\NESTED_DATASETS_WITH_CXGRID.dproj</Transaction>
+    <Transaction>2014/09/24 17:52:20.877.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uMENU.pas</Transaction>
+    <Transaction>2014/09/24 17:52:20.877.dfm,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uMENU.dfm</Transaction>
+    <Transaction>2014/09/24 17:53:35.176.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\uMENU.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_MENU.pas</Transaction>
+    <Transaction>2014/09/24 17:53:35.176.dfm,D:\AGFA\My Tests\Nested DataSets with CXGrid\uMENU.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_MENU.dfm</Transaction>
+    <Transaction>2014/09/24 17:55:37.162.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_VIEW.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_VIEW_CLIENTE.pas</Transaction>
+    <Transaction>2014/09/24 17:55:37.162.dfm,D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_VIEW.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_VIEW_CLIENTE.dfm</Transaction>
+    <Transaction>2014/09/24 17:58:59.824.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_VIEW_CLIENTE.pas=</Transaction>
+    <Transaction>2014/09/24 17:58:59.824.dfm,D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_VIEW_CLIENTE.dfm=</Transaction>
+    <Transaction>2014/09/24 18:03:30.097.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_BASE.pas</Transaction>
+    <Transaction>2014/09/24 18:03:30.097.dfm,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_BASE.dfm</Transaction>
+    <Transaction>2014/09/24 18:04:47.313.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_CLIENTE.pas</Transaction>
+    <Transaction>2014/09/24 18:04:47.313.dfm,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_CLIENTE.dfm</Transaction>
+    <Transaction>2014/09/24 18:08:22.571.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uRN_CLIENTE.pas</Transaction>
+    <Transaction>2014/09/26 08:44:17.280.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_PEDIDO.pas</Transaction>
+    <Transaction>2014/09/26 08:44:17.280.dfm,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_PEDIDO.dfm</Transaction>
+    <Transaction>2014/09/26 09:06:15.841.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_PEDIDO.pas</Transaction>
+    <Transaction>2014/09/26 09:06:15.841.dfm,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_PEDIDO.dfm</Transaction>
+    <Transaction>2014/09/26 17:58:24.964.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_CARRO.pas</Transaction>
+    <Transaction>2014/09/26 17:58:24.964.dfm,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_CARRO.dfm</Transaction>
+    <Transaction>2014/09/26 18:03:14.526.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_MONTADORA.pas</Transaction>
+    <Transaction>2014/09/26 18:03:14.526.dfm,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_MONTADORA.dfm</Transaction>
+    <Transaction>2014/09/29 14:21:36.181.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_REPORT_BASE.pas</Transaction>
+    <Transaction>2014/09/29 14:21:36.181.dfm,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_REPORT_BASE.dfm</Transaction>
+    <Transaction>2014/09/29 14:22:27.756.pas,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.pas=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_REPORT_CARRO.pas</Transaction>
+    <Transaction>2014/09/29 14:22:27.756.dfm,D:\AGFA\My Tests\Nested DataSets with CXGrid\Unit1.dfm=D:\AGFA\My Tests\Nested DataSets with CXGrid\uFORM_REPORT_CARRO.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

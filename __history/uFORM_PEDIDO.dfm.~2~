@@ -1,0 +1,105 @@
+inherited FORM_BASE1: TFORM_BASE1
+  Caption = 'FORM_PEDIDO'
+  ExplicitWidth = 651
+  ExplicitHeight = 338
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited cxGrid: TcxGrid
+    ExplicitLeft = 0
+    ExplicitTop = 0
+    ExplicitWidth = 633
+    ExplicitHeight = 252
+    inherited cxGridDBTableView1: TcxGridDBTableView
+      DataController.DataSource = DataSource
+      object cxGridDBTableView1id: TcxGridDBColumn
+        DataBinding.FieldName = 'id'
+      end
+      object cxGridDBTableView1data: TcxGridDBColumn
+        DataBinding.FieldName = 'data'
+      end
+      object cxGridDBTableView1clienteId: TcxGridDBColumn
+        DataBinding.FieldName = 'clienteId'
+      end
+    end
+    object cxGridDBTableView2: TcxGridDBTableView [1]
+      NavigatorButtons.ConfirmDelete = False
+      DataController.DataSource = DataSource
+      DataController.Summary.DefaultGroupSummaryItems = <>
+      DataController.Summary.FooterSummaryItems = <>
+      DataController.Summary.SummaryGroups = <>
+      object cxGridDBTableView2id: TcxGridDBColumn
+        DataBinding.FieldName = 'id'
+      end
+      object cxGridDBTableView2data: TcxGridDBColumn
+        DataBinding.FieldName = 'data'
+      end
+      object cxGridDBTableView2clienteId: TcxGridDBColumn
+        DataBinding.FieldName = 'clienteId'
+      end
+    end
+    object cxGridDBTableView3: TcxGridDBTableView [2]
+      NavigatorButtons.ConfirmDelete = False
+      DataController.DataSource = dsItens
+      DataController.Summary.DefaultGroupSummaryItems = <>
+      DataController.Summary.FooterSummaryItems = <>
+      DataController.Summary.SummaryGroups = <>
+      object cxGridDBTableView3id: TcxGridDBColumn
+        DataBinding.FieldName = 'id'
+      end
+      object cxGridDBTableView3data: TcxGridDBColumn
+        DataBinding.FieldName = 'data'
+      end
+      object cxGridDBTableView3pedidoId: TcxGridDBColumn
+        DataBinding.FieldName = 'pedidoId'
+      end
+      object cxGridDBTableView3carroId: TcxGridDBColumn
+        DataBinding.FieldName = 'carroId'
+      end
+      object cxGridDBTableView3valor: TcxGridDBColumn
+        DataBinding.FieldName = 'valor'
+      end
+    end
+    object cxGridDBTableView4: TcxGridDBTableView [3]
+      NavigatorButtons.ConfirmDelete = False
+      DataController.DataSource = dsItens
+      DataController.Summary.DefaultGroupSummaryItems = <>
+      DataController.Summary.FooterSummaryItems = <>
+      DataController.Summary.SummaryGroups = <>
+      object cxGridDBTableView4id: TcxGridDBColumn
+        DataBinding.FieldName = 'id'
+      end
+      object cxGridDBTableView4data: TcxGridDBColumn
+        DataBinding.FieldName = 'data'
+      end
+      object cxGridDBTableView4pedidoId: TcxGridDBColumn
+        DataBinding.FieldName = 'pedidoId'
+      end
+      object cxGridDBTableView4carroId: TcxGridDBColumn
+        DataBinding.FieldName = 'carroId'
+      end
+      object cxGridDBTableView4valor: TcxGridDBColumn
+        DataBinding.FieldName = 'valor'
+      end
+    end
+    inherited cxGridLevel1: TcxGridLevel
+      object cxGridLevel2: TcxGridLevel
+        GridView = cxGridDBTableView4
+      end
+    end
+  end
+  inherited pnControl: TPanel
+    ExplicitLeft = 0
+    ExplicitTop = 252
+    ExplicitWidth = 633
+  end
+  inherited DataSource: TDataSource
+    DataSet = DM_MODEL.cdsPedido
+    Left = 40
+    Top = 48
+  end
+  object dsItens: TDataSource
+    DataSet = DM_MODEL.cdsItem
+    Left = 40
+    Top = 96
+  end
+end

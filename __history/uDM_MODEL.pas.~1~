@@ -1,0 +1,37 @@
+unit uDM_MODEL;
+
+interface
+
+uses
+  SysUtils, Classes, DB, DBClient;
+
+type
+  TDM_MODEL = class(TDataModule)
+    cdsCliente: TClientDataSet;
+    cdsCarro: TClientDataSet;
+    cdsPedido: TClientDataSet;
+    cdsItem: TClientDataSet;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure confirm(ClientDataSet :TClientDataSet);
+  end;
+
+var
+  DM_MODEL: TDM_MODEL;
+
+implementation
+
+{$R *.dfm}
+
+{ TDataModule5 }
+
+{ TDataModule5 }
+
+procedure TDM_MODEL.confirm(ClientDataSet: TClientDataSet);
+begin
+  ClientDataSet.ApplyUpdates(0);
+end;
+
+end.

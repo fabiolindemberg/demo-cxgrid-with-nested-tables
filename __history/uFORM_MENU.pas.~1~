@@ -1,0 +1,38 @@
+unit uFORM_MENU;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, CategoryButtons, ExtCtrls;
+
+type
+  TFORM_MENU = class(TForm)
+    CategoryPanelGroup1: TCategoryPanelGroup;
+    CategoryPanel1: TCategoryPanel;
+    CategoryPanel2: TCategoryPanel;
+    CategoryButtons1: TCategoryButtons;
+    procedure CategoryButtons1Categories0Items0Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FORM_MENU: TFORM_MENU;
+
+implementation
+
+uses uDM_MODEL, uFORM_VIEW_CLIENTE;
+
+{$R *.dfm}
+
+procedure TFORM_MENU.CategoryButtons1Categories0Items0Click(Sender: TObject);
+begin
+  Application.CreateForm(TFORM_VIEW_CLIENTE, FORM_VIEW_CLIENTE);
+  FORM_VIEW_CLIENTE.ShowModal;
+  FORM_VIEW_CLIENTE.Free;
+end;
+
+end.

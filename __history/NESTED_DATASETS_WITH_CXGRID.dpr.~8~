@@ -1,0 +1,24 @@
+program NESTED_DATASETS_WITH_CXGRID;
+
+uses
+  Forms,
+  uDM_MODEL in 'uDM_MODEL.pas' {DM_MODEL: TDataModule},
+  uFORM_MENU in 'uFORM_MENU.pas' {FORM_MENU},
+  uFORM_BASE in 'uFORM_BASE.pas' {FORM_BASE},
+  uFORM_CLIENTE in 'uFORM_CLIENTE.pas' {FORM_CLIENTE},
+  uRN_CLIENTE in 'uRN_CLIENTE.pas',
+  uFORM_PEDIDO in 'uFORM_PEDIDO.pas' {FORM_PEDIDO},
+  uFORM_CARRO in 'uFORM_CARRO.pas' {FORM_CARRO},
+  uFORM_MONTADORA in 'uFORM_MONTADORA.pas' {FORM_MONTADORA},
+  uFORM_REPORT_BASE in 'uFORM_REPORT_BASE.pas' {FORM_REPORT_BASE},
+  uFORM_REPORT_CARRO in 'uFORM_REPORT_CARRO.pas' {FORM_REPORT_CARRO};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFORM_MENU, FORM_MENU);
+  Application.CreateForm(TDM_MODEL, DM_MODEL);
+  Application.Run;
+end.

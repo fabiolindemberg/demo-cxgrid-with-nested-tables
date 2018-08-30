@@ -1,0 +1,33 @@
+unit uFORM_PEDIDO;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, uDM_MODEL, uFORM_BASE, cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles, cxCustomData,
+  cxFilter, cxData, cxDataStorage, cxEdit, DB, cxDBData, cxGridCustomTableView, cxGridTableView, cxGridDBTableView,
+  StdCtrls, ExtCtrls, cxGridLevel, cxClasses, cxGridCustomView, cxGrid, cxDBExtLookupComboBox, cxDBLookupComboBox;
+
+type
+  TFORM_PEDIDO = class(TFORM_BASE)
+    cxGridLevel2: TcxGridLevel;
+    cxGridDBTableView2: TcxGridDBTableView;
+    cxGridDBTableView1id: TcxGridDBColumn;
+    cxGridDBTableView1data: TcxGridDBColumn;
+    cxGridDBTableView1clienteId: TcxGridDBColumn;
+    dsItens: TDataSource;
+    dsCliente: TDataSource;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FORM_PEDIDO: TFORM_PEDIDO;
+
+implementation
+
+{$R *.dfm}
+
+end.

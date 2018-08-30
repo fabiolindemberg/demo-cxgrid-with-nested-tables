@@ -1,0 +1,54 @@
+unit uFORM_PEDIDO;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, uDM_MODEL, uFORM_BASE, cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles, cxCustomData,
+  cxFilter, cxData, cxDataStorage, cxEdit, DB, cxDBData, cxGridCustomTableView, cxGridTableView, cxGridDBTableView,
+  StdCtrls, ExtCtrls, cxGridLevel, cxClasses, cxGridCustomView, cxGrid, cxDBExtLookupComboBox, cxDBLookupComboBox;
+
+type
+  TFORM_PEDIDO = class(TFORM_BASE)
+    cxGridLevel2: TcxGridLevel;
+    cxGridDBTableView2: TcxGridDBTableView;
+    cxGridDBTableView1id: TcxGridDBColumn;
+    cxGridDBTableView1data: TcxGridDBColumn;
+    cxGridDBTableView1clienteId: TcxGridDBColumn;
+    dsItens: TDataSource;
+    dsCliente: TDataSource;
+    cxGridDBTableView2id: TcxGridDBColumn;
+    cxGridDBTableView2data: TcxGridDBColumn;
+    cxGridDBTableView2pedidoId: TcxGridDBColumn;
+    cxGridDBTableView2carroId: TcxGridDBColumn;
+    cxGridDBTableView2valor: TcxGridDBColumn;
+    dsCarro: TDataSource;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FORM_PEDIDO: TFORM_PEDIDO;
+
+implementation
+
+uses
+  DBClient;
+
+{$R *.dfm}
+
+procedure TFORM_PEDIDO.Button1Click(Sender: TObject);
+begin
+  try
+    DM_MODEL.confirm( TClientDataSet(dsItens.DataSet) );
+    inherited;
+  except
+    raise Exception.Create('Error Message');
+  end;
+
+end;
+
+end.

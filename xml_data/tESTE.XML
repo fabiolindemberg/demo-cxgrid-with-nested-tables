@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DATAPACKET Version="2.0">
+   <METADATA>
+      <FIELDS>
+         <FIELD attrname="Codigo" fieldtype="i4" />
+         <FIELD attrname="Nome" fieldtype="string" WIDTH="72" />
+         <FIELD attrname="Sigla" fieldtype="string" WIDTH="2" />
+         <FIELD attrname="CodigoCorreio" fieldtype="i4" />
+         <FIELD attrname="Status" fieldtype="string" WIDTH="1" />
+      </FIELDS>
+      <PARAMS CHANGE_LOG="1 0 4 2 0 4 3 0 4 4 0 4" />
+   </METADATA>
+   <ROWDATA>
+      <ROW RowState="4" Codigo="0" Nome="Nome 0" Sigla="S0" CodigoCorreio="0" Status="A" />
+      <ROW RowState="4" Codigo="1" Nome="Nome 1" Sigla="S1" CodigoCorreio="1" Status="A" />
+      <ROW RowState="4" Codigo="2" Nome="Nome 2" Sigla="S2" CodigoCorreio="2" Status="A" />
+      <ROW RowState="4" Codigo="3" Nome="Nome 3" Sigla="S3" CodigoCorreio="3" Status="A" />
+   </ROWDATA>
+</DATAPACKET>

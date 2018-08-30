@@ -1,0 +1,49 @@
+unit uFORM_PEDIDO;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, uFORM_BASE, cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles, cxCustomData, cxFilter,
+  cxData, cxDataStorage, cxEdit, DB, cxDBData, StdCtrls, ExtCtrls, cxGridLevel, cxClasses, cxGridCustomView,
+  cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGrid, uDM_MODEL;
+
+type
+  TFORM_BASE1 = class(TFORM_BASE)
+    dsItens: TDataSource;
+    cxGridDBTableView1id: TcxGridDBColumn;
+    cxGridDBTableView1data: TcxGridDBColumn;
+    cxGridDBTableView1clienteId: TcxGridDBColumn;
+    cxGridDBTableView2: TcxGridDBTableView;
+    cxGridDBTableView2id: TcxGridDBColumn;
+    cxGridDBTableView2data: TcxGridDBColumn;
+    cxGridDBTableView2clienteId: TcxGridDBColumn;
+    cxGridDBTableView3: TcxGridDBTableView;
+    cxGridDBTableView3id: TcxGridDBColumn;
+    cxGridDBTableView3data: TcxGridDBColumn;
+    cxGridDBTableView3pedidoId: TcxGridDBColumn;
+    cxGridDBTableView3carroId: TcxGridDBColumn;
+    cxGridDBTableView3valor: TcxGridDBColumn;
+    cxGridLevel2: TcxGridLevel;
+    cxGridDBTableView4: TcxGridDBTableView;
+    cxGridDBTableView4id: TcxGridDBColumn;
+    cxGridDBTableView4data: TcxGridDBColumn;
+    cxGridDBTableView4pedidoId: TcxGridDBColumn;
+    cxGridDBTableView4carroId: TcxGridDBColumn;
+    cxGridDBTableView4valor: TcxGridDBColumn;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FORM_BASE1: TFORM_BASE1;
+
+implementation
+
+
+
+{$R *.dfm}
+
+end.
