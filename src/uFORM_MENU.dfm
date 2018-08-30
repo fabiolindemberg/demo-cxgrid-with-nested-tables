@@ -2,22 +2,27 @@ object FORM_MENU: TFORM_MENU
   Left = 0
   Top = 0
   Caption = 'Aplica'#231#227'o Teste'
-  ClientHeight = 567
-  ClientWidth = 1007
+  ClientHeight = 741
+  ClientWidth = 1317
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -11
+  Font.Height = -14
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
   WindowState = wsMaximized
-  PixelsPerInch = 96
-  TextHeight = 13
+  PixelsPerInch = 120
+  TextHeight = 17
   object CategoryPanelGroup1: TCategoryPanelGroup
     Left = 0
     Top = 0
-    Height = 567
+    Width = 262
+    Height = 741
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     VertScrollBar.Tracking = True
     HeaderFont.Charset = DEFAULT_CHARSET
     HeaderFont.Color = clWindowText
@@ -26,20 +31,33 @@ object FORM_MENU: TFORM_MENU
     HeaderFont.Style = []
     TabOrder = 0
     object CategoryPanel2: TCategoryPanel
-      Top = 161
+      Top = 211
+      Height = 261
+      Margins.Left = 4
+      Margins.Top = 4
+      Margins.Right = 4
+      Margins.Bottom = 4
       Caption = 'Sistemas'
       TabOrder = 0
     end
     object CategoryPanel1: TCategoryPanel
       Top = 0
-      Height = 161
+      Height = 211
+      Margins.Left = 4
+      Margins.Top = 4
+      Margins.Right = 4
+      Margins.Bottom = 4
       Caption = 'Cadastros'
       TabOrder = 1
       object CategoryButtons1: TCategoryButtons
         Left = 0
         Top = 0
-        Width = 196
-        Height = 135
+        Width = 258
+        Height = 185
+        Margins.Left = 4
+        Margins.Top = 4
+        Margins.Right = 4
+        Margins.Bottom = 4
         Align = alClient
         ButtonFlow = cbfVertical
         Categories = <
@@ -89,15 +107,18 @@ object FORM_MENU: TFORM_MENU
         RegularButtonColor = clWhite
         SelectedButtonColor = 15132390
         TabOrder = 0
-        ExplicitLeft = -1
-        ExplicitTop = -5
       end
     end
   end
   object CategoryPanelGroup2: TCategoryPanelGroup
-    Left = 200
+    Left = 262
     Top = 0
-    Height = 567
+    Width = 261
+    Height = 741
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     VertScrollBar.Tracking = True
     HeaderFont.Charset = DEFAULT_CHARSET
     HeaderFont.Color = clWindowText
@@ -105,8 +126,5 @@ object FORM_MENU: TFORM_MENU
     HeaderFont.Name = 'Tahoma'
     HeaderFont.Style = []
     TabOrder = 1
-    ExplicitLeft = 864
-    ExplicitTop = 240
-    ExplicitHeight = 350
   end
 end
